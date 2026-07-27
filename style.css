@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 :root{
     --branco:white;
-    --cor-de-fundo: #462C7D;
-    --fundo-senha: #831C91;
+    --cor-de-fundo: #030103;
+    --fundo-senha: #ff7af4;
     --fundo-texto: #D552A3;
     --borda: #FF70BF;
-    --playfair: "Playfair Display", serif;
+    --fonte: "Playfair Display", serif;
 
     
 }
@@ -15,5 +15,21 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--playfair)
+    font-family;: var(--playfair)
+}
+.titulo-principal{
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+    text-align: center;
+    margin: 80px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+.cadeado-conteudo{
+    width: 100px;
 }
